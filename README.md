@@ -1,9 +1,9 @@
 # Google History Scraper
 Scrapes your full Google history found [here](https://history.google.com/history/app).
 
-Google allows you to download your search history, and you can usually grab the browser's local history. However, Google does not yet allow users to download their full web and app activity. (Note that this may be turned off by default, you can change this at [here](https://www.google.com/settings/accounthistory/search).) Google shows you this history, but only 24 entrys at a time.
+Google allows you to download your search history, and you can usually grab the browser's local history. However, Google does not yet allow users to download their full web and app activity. (Note that this may be turned off by default, you can change this at [here](https://www.google.com/settings/accounthistory/search).) Google shows you this history, but only 24 entries at a time.
 
-For each page this Python script scraps the relevint data and appends it to the end of the file
+For each page this Python script scrapes the relevant data and appends it to the end of the file.
 
 ## Setup
 You will need [Selenim](http://www.seleniumhq.org/) and [BeautifulSoup](http://www.crummy.com/software/BeautifulSoup).
@@ -12,7 +12,7 @@ You will need [Selenim](http://www.seleniumhq.org/) and [BeautifulSoup](http://w
   
   pip install selenium
 
-You will also need to put the selenium web driver in you path. You can download the Chrome web driver [here](https://sites.google.com/a/chromium.org/chromedriver/downloads). Then you should be able to copy it ~/bin/
+You will also need to put the Selenium web driver in your path. You can download the Chrome web driver [here](https://sites.google.com/a/chromium.org/chromedriver/downloads). Then you should be able to just copy it to ~/bin/.
 
 Note that I have only tested this on Ubuntu 15.04 with Chromium. I expect that it should work on other Linux distributions, and it should work with with other browsers if you change driver = webdriver.Chrome('chromedriver') to some other driver.
 
