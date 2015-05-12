@@ -21,7 +21,7 @@ Open the terminal and type:
 
   python GHistoryScraper.py
 
-A file will be created. (You can change the name by editing the line 'dataFile = "dataFile.html"' and replacing dataFile.html with whatever you want.) Selenium should then put up a new Chrome window. Google will immediately redirect you to the sign in page. Sign in to your Google account, (as this is the normal Google authentication page second factor authentication will work fine), and then, back at the shell, press enter to continue. GHistoryScraper will download the data from each file and append it to the data file.
+A file will be created names dataFile.html. (You can change the name by editing the line 'dataFile = "dataFile.html"' and replacing dataFile.html with whatever you want.) Selenium should then put up a new Chrome window. Google will immediately redirect you to the sign in page. Sign in to your Google account, (as this is the normal Google authentication page second factor authentication will work fine), and then, back at the shell, press enter to continue. GHistoryScraper will download the data from each file and append it to the data file.
 
 If you have less then ~1500 history entries, then it should run fine. However, if you have lots of entries, then it will run for more then ~10 minutes, and Google will ask you to sign in again. When this happens, the script will ask you to sign in again. When you have done this, press enter to resume.
 
