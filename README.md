@@ -14,7 +14,7 @@ You will need [Selenim](http://www.seleniumhq.org/) and [BeautifulSoup](http://w
 
 You will also need to put the Selenium web driver in your path. You can download the Chrome web driver [here](https://sites.google.com/a/chromium.org/chromedriver/downloads). Then you should be able to just copy it to ~/bin/.
 
-Note that I have only tested this on Ubuntu 15.04 with Chromium. I expect that it should work on other Linux distributions, and it should work with with other browsers if you change driver = webdriver.Chrome('chromedriver') to some other driver.
+Note that I have only tested this on Ubuntu 15.04 with Chromium. I expect that it should work on other Linux distributions, and it should work with with other browsers if you change "driver = webdriver.Chrome('chromedriver')" to some other driver.
 
 ## Usage
 Open the terminal and type:
