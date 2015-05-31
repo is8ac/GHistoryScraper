@@ -1,3 +1,5 @@
+# Recently, Google has made major changes to the history page breaking this script. I intend to soon update the code for the new page, however in mean time there is no point in using this script. Check back soon.
+
 # Google History Scraper
 Scrapes your full Google history found [here](https://history.google.com/history/app).
 
